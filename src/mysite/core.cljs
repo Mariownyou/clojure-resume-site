@@ -8,12 +8,14 @@
 
 (defn download-button []
   [:div.button-container 
-    [:button.button.button-orange
-      [:img.svg-icon {:src      "assets/icons/download.svg" 
-                      :alt      "download button"}]]])
+    [:a.button.button-orange {:href "assets/Лев Кондратьев.pdf"
+                              :download true}
+      [:img.svg-icon         {:src      "assets/icons/download.svg" 
+                              :alt      "download button"}]]])
 
 (defn progress [] 
-  [:div.page-progress])
+  [:div.page-progress
+    [:div.page-progress__progress {:id "progress"}]])
 
 (defn navbar []
   [:nav.navbar 
@@ -168,12 +170,14 @@
     [:div.footer__text
         "Сайт написан на ClojureScript"
         [:br]
-        [:a.footer__link {:href ""} "репозиторий"]]])
+        [:a.footer__link {:href "https://github.com/Mariownyou/clojure-resume-site"} "репозиторий"]]])
 
 (defn home-page []
   [:div.page 
-    [navbar]
-    [progress]
+    [:header.header 
+      [navbar]
+      [progress]]
+    [:div.spacer]
     [title-section]
     [section "About me" [about-section]]
     [section "Skills" [skills-section]]

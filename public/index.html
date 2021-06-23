@@ -12,5 +12,15 @@
     </div>
     <script src="/js/app.js" type="text/javascript"></script>
     <script type="text/javascript">mysite.core.init_BANG_();</script>
+    <script>
+      console.log("works")
+      function scrollProgress() {
+        var currentState = document.body.scrollTop || document.documentElement.scrollTop;
+        var pageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrollStatePercentage = (currentState / pageHeight) * 100;
+        document.getElementById('progress').style.width = scrollStatePercentage + "%";
+      }
+      window.onscroll = function () { scrollProgress() };
+    </script>
   </body>
 </html>

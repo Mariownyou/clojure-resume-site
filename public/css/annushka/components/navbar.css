@@ -1,7 +1,23 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+.spacer {
+    width: 100%;
+    height: 50px;
+}
+
 .navbar {
     width: calc(100% - 10px * 2);
+    height: 50px;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     background: var(--light-grey);
+}
+
+.navbar > h3 {
+    margin-top: 15px;
 }
