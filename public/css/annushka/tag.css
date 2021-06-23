@@ -1,0 +1,13 @@
+/* Tags */
+.tags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+/* Tag */
+.tag {
+    padding: 3px 4px;
+    background: var(--grey);
+    border-radius: 4px;
+}

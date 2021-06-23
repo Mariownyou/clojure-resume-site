@@ -1,0 +1,20 @@
+:root {
+    /* Colors */
+    --red: rgba(255, 17, 2, 1);
+    --orange: rgba(250, 82, 46, 1);
+    --blue: ;
+    --grey: #f0f0f0;
+
+    --orange-light: rgba(250, 82, 46, 0.8);
+    --light-grey: #F8F8F8;
+    --grey-light: #F8F8F8;
+    --light-blue:rgb(0, 96, 160);
+
+    --orange-dark: rgba(240, 42, 0, 1);
+    --grey-dark: #333333;
+
+    /* Font */
+    --regular: 14px;
+    --medium: 18px;
+    --big: 24px;
+}

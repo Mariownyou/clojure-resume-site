@@ -1,0 +1,19 @@
+/* Link */
+.link {
+    text-decoration: none;
+    color: var(--orange);
+    border-bottom: 1px solid var(--orange);
+    padding-bottom: 2px;
+}
+
+.link:hover {
+    border-color: var(--light-blue);
+}
+
+.link-icon {
+    line-height: 24px;
+}
+
+.link-icon > img {
+    margin-bottom: -1px;
+}

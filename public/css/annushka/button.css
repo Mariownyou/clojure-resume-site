@@ -1,0 +1,32 @@
+/* Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    color: black;
+    background: var(--grey);
+    border: none;
+    padding: 3px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button > .svg-icon {
+    fill: black;
+}
+
+.button-orange {
+    color: white;
+    background: var(--orange);
+}
+
+.button-orange:hover {
+    background: var(--orange-dark);
+}
+
+.button-orange > .svg-icon {
+    fill: white; 
+}

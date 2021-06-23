@@ -1,0 +1,5 @@
+.page-progress {
+    width: 27%;
+    height: 2px;
+    background: var(--orange);
+}

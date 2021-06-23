@@ -1,0 +1,7 @@
+.navbar {
+    width: calc(100% - 10px * 2);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background: var(--light-grey);
+}
