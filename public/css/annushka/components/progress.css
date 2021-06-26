@@ -1,9 +1,0 @@
-.page-progress {
-    width: 100%;
-    display: block;
-}
-
-.page-progress__progress {
-    height: 2px;
-    background: var(--orange);
-}
